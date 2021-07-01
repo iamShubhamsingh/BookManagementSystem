@@ -1,72 +1,82 @@
-// Requirements for our Project
+// Requirements
 
-// We are a book management company
+// We are a company that handles book publications
 
-// Books
-// ISBN, title, pub date, langauge, num page, author[], category[]
+// Book
+// ISBN, Title, Author [], Language, Pub Date, Num Page, Category[]
 
 // Authors
-// id, name, books[]
+// Name, Id, Books[]
 
 // Publications
-// id, name, books[]
+// Name, Id, Books[]
 
-// What are all the APIs that we need.....
+// Requirements
+
+// ---------------------------------------------------------------------------------------
 
 // Books
+
 // We need an API
 
 // GET
-// to get all books ✅
-// to get specific books✅
-// to get list of books based on category✅
-// to get list of books based on languages [task]🚀
+// to get all books ✅ 📌
+// to get specific book ✅ 📌
+// to get a list of books based on category✅ 📌
+// to get a list of books based on author -> [Task]🔥 📕
 
 // POST
-// Add new book✅
+// New Book ✅ 📌
 
 // PUT
-// Update book title✅
-// update/add new author for a book✅
+// Update book details✅ 📌
+// update/add new author✅ 📌
 
 // DELETE
-// delete a book
-// delete an author
+// delete a book✅ 📌
+// delete a author from a book✅ 
 
-// Authors
+// ---------------------------------------------------------------------------------------
 
-// We need an api
+// Author
+
+// We need an API
 
 // GET
-// to get all authors✅
-// to get specific authors [task]🚀
-// to get list of authors based on books ✅
+// to get all authors✅ 📌
+// to get specific author [Task]🔥  📕
+// to get a list of authors based on a book. ✅  📕
 
 // POST
-// Add new author✅
+// New Author ✅ 📌
 
 // PUT
-// Update Author name using it's id [Task] 🚀
+// update Author name using id [Task] 🔥
 
 // DELETE
-// Delete an author
+// Delete an author [Task] 🔥🚀
 
-// Publications
+// ---------------------------------------------------------------------------------------
 
-// we need an API
+// Publication
+
+// We need an API
 
 // GET
-// to get all publication  ✅
-// to get specific publication [task] 🚀
-// to get list of publication based on book [task] 🚀
+// to get all publications ✅  📕
+// to get specific publication [Task]🔥  📕
+// to get a list of publications based on a book. [Task]🔥  📕
 
 // POST
-// Add new publications [Task] 🚀
+// Add new publication [task] 🔥  📕
 
 // PUT
-// UPdate the publication name using it's id [Task] 🚀
-// update/add books to publications
+// update publication name using id [Task] 🔥
+// update/add new book to a publication✅
 
 // DELETE
-// Delete the publication
-// delete a book from publication.
+// delete a book from publication ✅
+// delete a publication [Task] 🔥🚀
+
+
+// How does the server serves the request ?
